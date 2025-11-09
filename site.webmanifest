@@ -1,0 +1,80 @@
+{
+  "name": "Es Cokelat - Minuman Nikmat Sharon Sianturi",
+  "short_name": "Es Cokelat",
+  "description": "Es Cokelat – Nikmati segelas kebahagiaan! Pesan minuman cokelat favoritmu dan temukan lokasi toko terdekat.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8f3ef",
+  "theme_color": "#6b3e26",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "id",
+  "categories": ["food", "drink", "lifestyle"],
+  "icons": [
+    {
+      "src": "/assets/icons/es-cokelat-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/icons/es-cokelat-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/assets/screenshots/mobile-home.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Beranda Es Cokelat – Menu Minuman"
+    },
+    {
+      "src": "/assets/screenshots/desktop-map.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Peta Lokasi Toko Es Cokelat"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Pesan Sekarang",
+      "short_name": "Pesan",
+      "description": "Langsung pesan minuman cokelat favoritmu 🍫",
+      "url": "/#/add",
+      "icons": [
+        {
+          "src": "/assets/shortcuts/pesan.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Lihat Lokasi Toko",
+      "short_name": "Lokasi",
+      "description": "Temukan toko Es Cokelat terdekat di peta 🗺️",
+      "url": "/#/map",
+      "icons": [
+        {
+          "src": "/assets/shortcuts/lokasi.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Menu Minuman",
+      "short_name": "Menu",
+      "description": "Lihat koleksi minuman cokelat dari Es Cokelat ☕",
+      "url": "/#/home",
+      "icons": [
+        {
+          "src": "/assets/shortcuts/menu.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+}
